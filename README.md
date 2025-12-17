@@ -1,25 +1,25 @@
 # preprocessing 디렉토리 구조도
 
-
-PREPROCESSING/
-├── data/
-│   ├── 경쟁률자료/
-│   │   ├── 안양대
-│   │   │   ├── pdf/
-│   │   │   └── xlsx/
-│   │   └── 전국
-│   │       ├── pdf/
-│   │       └── xlsx/
-│   └── 안양대자료/
-├── output/
-│   ├── 경쟁률
-│   │   ├── 안양대/
-│   │   └── 전국/
-│   └── 안양대정보/
-├── pdf_to_markdown.py
-├── postprocess_markdown.py
-└── README.md
-
+<br>
+PREPROCESSING/ <br>
+├── data/ <br>
+│   ├── 경쟁률자료/ <br>
+│   │   ├── 안양대 <br>
+│   │   │   ├── pdf/ <br>
+│   │   │   └── xlsx/ <br>
+│   │   └── 전국 <br>
+│   │       ├── pdf/ <br>
+│   │       └── xlsx/ <br>
+│   └── 안양대자료/ <br>
+├── output/ <br>
+│   ├── 경쟁률 <br>
+│   │   ├── 안양대/ <br> 
+│   │   └── 전국/ <br>
+│   └── 안양대정보/ <br>
+├── pdf_to_markdown.py <br>
+├── postprocess_markdown.py <br>
+└── README.md <br>
+<br>
 
 ## pdf_to_markdown.py
 
