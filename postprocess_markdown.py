@@ -70,7 +70,6 @@ def format_cell_content(cell: str) -> str:
 def process_data(filtered_data: List[str]) -> List[str]:
     
     processed_data = []
-    print("데이터 후처리 (3,4자리 숫자 소수점 변환)")
     
     for row in filtered_data:
         if re.match(r'^\|[\s:-]+\|[\s:-]+\|', row.strip()):
@@ -108,11 +107,12 @@ if __name__ == "__main__":
         filtered_data = filter_data(raw_data)
         final_processed_data = process_data(filtered_data)
         
-        print("최종 처리 결과 (클린 데이터)")
+        print("최종 처리 결과")
         
         for line in final_processed_data:
             print(line)
 
         with open('[f]안양대_2021.md', 'w', encoding='utf-8') as f:
             f.write('\n'.join(final_processed_data))
-        print("\n처리된 데이터가 'output_processed_data.md' 파일로 저장되었습니다.")
+
+        print("\n처리된 데이터가 파일로 저장되었습니다.")
